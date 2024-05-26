@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+table.todoTable{
+	margin-top: 5px;
+	margin-bottom: 5px;
+  border-spacing:0;
+	border: none;
+}
+
+td.seq{
+  text-align: left;
+  background: #b7efb7;
+  width: 40x;
+}
+td.comment{
+  text-align: left;
+  background: #b7efb7;
+  width: 400px;
+}
+td.ddl{
+  text-align: left;
+  background: #b7efb7;
+  width: 100px;
+}
+td.status{
+  text-align: left;
+  background: #b7efb7;
+  width: 100px;
+}
+td.delete{
+  text-align: left;
+  background: #b7efb7;
+  width: 100px;
+}
+
+input.newTask{
+  width: 600px;
+  font-size:16px;
+  height: 50px;
+}
+
+div.finished_delay {
+  color: #ff0000;
+  position: relative;
+  }
+  
+div.finished_delay:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-top: -2px;
+  border-top: solid 1px #800000;
+  border-bottom: solid 1px #800000;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  }
+
+div.delay_only {
+    color: #ff0000;
+    }
+
+div.finished_only {
+    position: relative;
+}
+      
+div.finished_only:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: -2px;
+    border-top: solid 1px #800000;
+    border-bottom: solid 1px #800000;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+div.in_process {
+  color: #000000;
+  }
+  
+div.space1{
+  display: inline-block;
+  _display: inline;
+  width: 30px;
+}
+
+div.space2{
+  display: inline-block;
+  _display: inline;
+  width: 100px;
+}
+      
