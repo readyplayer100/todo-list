@@ -17,9 +17,9 @@ export const App = () => {
 
   const [todoText, setTodoText] = useState("");
   const [time,setDeadLine] =useState(today_value);
-  const [todoList, setNewTodoList] = React.useState([{ comment: 'Task001', ddl: '2024-04-30', status: 'IN PROCESS' }]);
-  const [filteredTodoList, setFilteredTodoList] = React.useState([]);
-  const [radio, setRadio] = React.useState('all');
+  const [todoList, setNewTodoList] = useState([{ comment: 'Task001', ddl: '2024-04-30', status: 'IN PROCESS' }]);
+  const [filteredTodoList, setFilteredTodoList] = useState([]);
+  const [radio, setRadio] = useState('all');
 
   useEffect(() => {
      // 更新DOM
