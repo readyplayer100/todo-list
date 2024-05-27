@@ -1,5 +1,5 @@
 # todo-list
-1.实现了任务的添加，删除，已完成和进行中的状态切换，逾期显示。能够分别显示全部进行中任务或已完成任务。
+1.实现了任务的添加，删除，已完成和进行中的状态切换，逾期显示。能够分别显示全部或进行中任务或已完成任务。
 
 ![image](https://github.com/readyplayer100/todo-list/assets/162986049/7e85ef22-f646-4972-848d-4adbc80cadbd)
 ![image](https://github.com/readyplayer100/todo-list/assets/162986049/0495219a-8f8a-48f1-af0d-4839a974cb03)
